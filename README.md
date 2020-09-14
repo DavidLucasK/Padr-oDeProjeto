@@ -1,2 +1,2 @@
-# Padr-oDeProjeto
+# PadrãoDeProjeto
 Atividade Padrão de Projeto

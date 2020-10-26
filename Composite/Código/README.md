@@ -35,6 +35,6 @@
     - Manipula os objetos da composição via interface Component
     
  - Sample Code:
-    - [Código](http)
+    - [Código](https://github.com/DavidLucasK/PadraoDeProjeto/tree/master/Composite/C%C3%B3digo/src)
     - Para simplificar usei o exemplo do professor João Cunha e implementei um programa que calcula o saldo do cliente, tanto conta Corrente e poupança).
  

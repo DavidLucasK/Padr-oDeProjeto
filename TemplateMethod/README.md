@@ -26,6 +26,6 @@
     - Redefine, quando necessário, algumas etapas do algoritmo especificado em FrameworkClass
     
  - Sample Code:
-    - [Código](https://github.com/aleboer/PadroesDeProjeto/tree/master/TemplateMethod/src)
+    - [Código](https://github.com/DavidLucasK/PadraoDeProjeto/tree/master/TemplateMethod/src)
     
     Simulador de video player para no código acima para exemplificar a implementação do Template Method.

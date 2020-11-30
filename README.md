@@ -31,5 +31,5 @@
   
 
 ### **Sample**
-•	[Codigo feito](https://github.com/DavidLucasK/PadraoDeProjeto/tree/master/FactoryMethod)<br />
+•	[Code](https://github.com/DavidLucasK/PadraoDeProjeto/tree/master/FactoryMethod)<br />
 

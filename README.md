@@ -1,37 +1,35 @@
-# Padrão Composite
+## *Padrão de Projetos* <br />
+### **Pattern Name and Classification** <br />
+*Padrão Factory Method* <br />
+  •	Padrão Criacional <br />
 
-* Pattern Name and Classification
-  - Name: Composite
-  - Classification: Estrutural
+### **Intent e Motivation** <br />
+  •	1. Define uma interface para criação de objetos. <br />
+  •	2. As subclasses são responsaveis pela inicialização e utilização da interface<br />
+  •	3. Centralização das dependências em um unico ponto. <br />
 
+### **Applicability** <br />
+  •	Essencial quando o projeto tem uma estrutura de classes complexas com varias dependências entre si.
 
-* Intent
-  - Facilitar a implementação de objetos que se comportam como estrutura em árvore.
+### **Structure** <br />
+<img align="left" width="400" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Factory_Method_UML_class_diagram.png/400px-Factory_Method_UML_class_diagram.png"> <br />
 
-* Motivation
-  - O Composite é um objeto projetado como uma composição de um ou mais objetos semelhantes, Todos exibindo funcionalidade semelhante.
-  - O conceito principal é que você pode manipular uma única instância do objeto da mesma forma que faria com um grupo deles.
-
-* Applicability
-  - O Composite deve ser utilizado quando a aplicação possui alguma estrutura hierárquica e quer funcionalidades genéricas por toda a estrutura.
-
-* Structure
-  - O Composite tem uma estrutúra em arvore. Cada componente da mesma é explicado abaixo.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+### **Participants** <br />
+  • O padrão Factory Method possui 4 participantes<br />
+  • Cliente: É quem tem a dependência com iProduct.<br />
+  • Creator: Responsável pela construção e definição do Factory Method<br />
+  • IProduct: Define a interface de objetos que o Factory cria.<br />
+  • ProductA, ProductB,C: Implementa a interface do Product.<br />
   
-* Participants:
-  - Component:
-    - Declara interface para objetos da composição
-    - Implementa comportamentos padrão comuns para todas as classes
-    - Declara uma interface para acessar e gerenciar componentes filho
-  - Leaf:
-    - Representa objetos folha da consição que não tem filhos
-    - Define o comportamento para objetos primitivos da composição
-  - Composite:
-    - Define o comportamento para componentes que possuem filhos
-    - Armazena componentes filhos
-    - Implementa operações relacionadas a filhos e definidas na interface Component
-  - Client:
-    - Manipula os objetos da composição via interface Component
-    
- - Sample Code:
- 
+
+### **Sample**
+•	[Codigo feito](https://github.com/DavidLucasK/PadraoDeProjeto/tree/master/FactoryMethod)<br />
+
